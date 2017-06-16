@@ -1,0 +1,9 @@
+TODO
+
+Stephen
+-Make sidebar code appear on all html pages
+-Create projects page
+-Get Kroz hosting working
+
+Vanessa
+-Image class for putting images in text
