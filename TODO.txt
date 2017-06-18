@@ -2,4 +2,3 @@ TODO
 -Make sidebar code appear on all html pages [In progress]
 -Image class for putting images in text
 -Make HREFs in about page show up as blue, not black (ex. So We Became Artists link, email, twitter)
--Open links in new tab
