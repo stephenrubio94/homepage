@@ -1,9 +1,6 @@
 TODO
-
-Stephen
 -Make sidebar code appear on all html pages
 -Create projects page
 -Get Kroz hosting working
-
-Vanessa
 -Image class for putting images in text
+-Make HREFs in about page show up as blue, not black (ex. So We Became Artists link, email, twitter)
