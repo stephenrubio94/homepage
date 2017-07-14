@@ -5,9 +5,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="styles/global2.css">
 		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Source+Sans+Pro" rel="stylesheet">
+		
 	</head>
 
 	<body>
+		<style type="text/css">
+   .mobileHide { display: inline;}
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){  .mobileHide { display: none;}}
+</style>
 		<nav>
 			<div style="width:100px; height:100px; border-radius:100px; background-image:url('images/vive.jpg'); background-size:cover;"></div>
 			<h1>Stephen <div class="rubio"><i>Rubio</i></div></h1>
@@ -34,7 +42,7 @@
 			</p>
 			</div>
 		
-		<div class="strip" style="background-image:url('images/SidebarBanner.png');"></div>
-		</div>
+		<div class="mobileHide"><div class="strip" style="background-image:url('images/SidebarBanner.png');"></div>
+		</div></div>
 	</body>
 </html>
