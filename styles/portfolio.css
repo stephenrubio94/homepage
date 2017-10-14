@@ -4,12 +4,12 @@
 	padding:20px;
 	border-bottom:3px solid #1e90ff;
 	margin-bottom:10px;
+	cursor:pointer;
 }
 
 .projectname:hover {
 	background-color:#1e90ff;
 	color:white;
-	cursor:pointer;
  -o-transition:.3s;
   -ms-transition:.3s;
   -moz-transition:.3s;
