@@ -31,14 +31,19 @@
 			<div class="content"><h2>Portfolio</h2>
 				<hr>
 				<div class="project">
-					<div class="projectname">Derelict VR</div>
-					<p>Derelict VR remake of Derelict 54, an adventure game I made in the Unreal Engine.  This was originally just going to be a port of the game, but the majority of the mechanics and a good deal of the level design simply did not work in VR, so I ended up remaking the majority of the game.
-					I faced a lot of interesting design challanges when making the VR version of the game that weren't present in the original version.  Basic things like HUD elements, trigger volumes, and even post-processing effects were completely broken in VR.  As a result, I think this was the most challanging game I've made from a design perspective, even with Unreal's generous VR features.
-					While the game was originally made for the HTC Vive, it does work with the Oculus Rift as well.
+					<div class="projectname">Derelict 54 & VR</div>
+
+					<p>Derelict 54, and its VR remake, Derelict VR, came about when I tried to take the design sensibilities of Terminal 2, an HTML adventure game I made, and <a href="https://blog.stephenrubio.com/2016/08/09/by-will-and-wits-alone-near-death-survival-themed-games/"> my writing on the subject </a> to create a 3D adventure game with puzzles that felt like grounded extensions of the setting, rather than gamey contrivences.  Knowing that 3D development is often prohibitively difficult for large solo projects, I created a smaller level with a self-contained story.
+					<br><br>
+					Derelict 54 follows the same rhythms of play that Terminal 2 did, but from the first-person, 3D perspective, and with a greater emphasis on atmosphere and tone.  It dumps the player onto a broken-down space station, and asks them to figure out how to escape.  It has some basic exploration and resource management elements that my previous games haven't had, which let me focus more on level design.  This was also my first game in the Unreal Engine where I really had to dig into scripting, applying my more traditional computer science knowledge to Unreal's blueprint system.  Getting specific rooms to be locked off until the player had pressed the right buttons required more back-end work than I had done previously, and allowed me to plot player paths with more detail, supporting them with solid level design.  The result, I hope, emulates the quiet tension of the many adventure games that inspired it.
+					<br><br>
+					Derelict VR was originally just going to be a VR port, but the majority of the mechanics and a good deal of the level design simply did not work in VR, so I ended up remaking the majority of the game.
+					I faced a lot of interesting design challanges when making the VR version of the game that weren't present in the original version.  Basic things like HUD elements, trigger volumes, and even post-processing effects were completely broken in VR.  As a result, I think this was the most challanging game I've made from a design perspective, even with Unreal's generous VR features.  Fortunately, the changes to improve the VR experience also improved the first-person experience, so I updated the original, first-person build of the game with the VR features.
+					The game works with the HTC Vive and Oculus Rift, but requires 360-degree tracking and a roomscale setup.
 					</br><br>
-					You can see the code and project files on GitHub <a href="https://github.com/stephenrubio94/Derelict54VR" target="_blank">here</a>. <br>
-					<br><a href="				https://www.dropbox.com/s/fvclzub6qaxyiz6/Derelict%2054%20VR%20Beta%201.zip?dl=0" target="_blank">Play Here</a>
-					</br><img src="images/DerelictVR.png" alt="DerelictVR" style="width:50%;">
+					You can see the code and project files on GitHub <a href="https://github.com/stephenrubio94/Derelict54VR" target="_blank">here</a>.
+					<br><a href="				https://www.dropbox.com/s/8jbjft3wrgp2xw6/Derelict%2054%20VR.zip?dl=0" target="_blank">Play Here (VR)</a>
+					<br><a href="				https://www.dropbox.com/s/8eckkrr9fasc1cp/Derelict54NonVR.zip?dl=0" target="_blank">Play Here (First-Person)</a>
 					<br><iframe width="560" height="315" src="https://www.youtube.com/embed/CT7aTUWscl8" frameborder="0" allowfullscreen></iframe><br>
 				 	</p>
 				</div>
@@ -52,30 +57,16 @@
 						 <br><iframe width="560" height="315" src="https://www.youtube.com/embed/6uyXxvq3k-4?start=3" frameborder="0" allowfullscreen></iframe><br>
 				 	 </p>
 				</div>
-
-				<div class="project">
-					<div class="projectname">Derelict 54</div>
-						<p>Derelict 54 came about when I tried to take the design sensibilities of Terminal 2, an HTML adventure game I made, and <a href="https://blog.stephenrubio.com/2016/08/09/by-will-and-wits-alone-near-death-survival-themed-games/"> my writing on the subject </a> to create a 3D adventure game with puzzles that felt like grounded extensions of the setting, rather than gamey contrivences.  Knowing that 3D development is often prohibitively difficult for large solo projects, I created a smaller level with a self-contained story.
-						<br><Br>
-						Derelict 54 follows the same rhythms of play that Terminal 2 did, but from the first-person, 3D perspective, and with a greater emphasis on atmosphere and tone.  It dumps the player onto a broken-down space station, and asks them to figure out how to escape.  It has some basic exploration and resource management elements that my previous games haven't had, which let me focus more on level design.  This was also my first game in the Unreal Engine where I really had to dig into scripting, applying my more traditional computer science knowledge to Unreal's blueprint system.  Getting specific rooms to be locked off until the player had pressed the right buttons required more back-end work than I had done previously, and allowed me to plot player paths with more detail, supporting them with solid level design.  The result, I hope, emulates the quiet tension of the many adventure games that inspired it.
-						 </br><br>
-						 I have a playable version uploaded here.  Just unzip the file and run Derelict 54.exe.
-					 </br><a href="https://www.dropbox.com/s/sxvqg5gdq8q3qo3/Derelict%2054-Final.zip?dl=0" target="_blank"> Play Here</a>
-					 </br></br><iframe width="50%" height="315" src="https://www.youtube.com/embed/MIjp6dBlj5I" frameborder="0" allowfullscreen></iframe><br>
-						</p>
-				</div>
-
 				<div class="project">
 					<div class="projectname">Skyrim Tombs</div>
-						<p>For this project, I experimented with Skyrim dungeons using the Creation Kit and Papyrus.  To learn the engine, I created a few basic tombs while trying to use a more complex layout than that in the base game.  I wanted to use the trap and puzzle systems already built into the game to create a game more centered around spatial and puzzle progression than combat.  The slower pace allowed me to further iterate in the ideas I started on in Derelict 54 and Terminal 2, except transplanted to a fantasy setting.  Skyrim pulls from many of the same immersive sim roots as my inspirations for Derelict and Terminal 2 (though Skyrim is decidedly more Ultima: Underworld than System Shock 2), so the transition hasn't been as rough as I had expected.
-						</br><img src="images/SkyrimLayout.png" alt="TombMap" style="width:50%;">
-						</br><br>
-						<a href="https://www.dropbox.com/s/w2v1130lpysekgi/MoriansTomb.zip?dl=0" target="_blank">Here's</a> a zip file of my final maps, with installation instructions included.<br>
-				 	 </p>
+					<p>For this project, I experimented with Skyrim dungeons using the Creation Kit and Papyrus.  To learn the engine, I created a few basic tombs while trying to use a more complex layout than that in the base game.  I wanted to use the trap and puzzle systems already built into the game to create a game more centered around spatial and puzzle progression than combat.  The slower pace allowed me to further iterate in the ideas I started on in Derelict 54 and Terminal 2, except transplanted to a fantasy setting.  Skyrim pulls from many of the same immersive sim roots as my inspirations for Derelict and Terminal 2 (though Skyrim is decidedly more Ultima: Underworld than System Shock 2), so the transition wasn't as rough as I had expected.
+					</br><br><a href="https://www.dropbox.com/s/w2v1130lpysekgi/MoriansTomb.zip?dl=0" target="_blank">Here's</a> a zip file of my final maps, with installation instructions included.<br>
+					</br><img src="images/SkyrimLayout.png" alt="TombMap" style="width:50%;">
+			 	 </p>
 				</div>
 
-        <div class="project">
-			<div class="projectname">DM-LaserTag</div>
+      <div class="project">
+				<div class="projectname">DM-LaserTag</div>
 			  <p>DM-LaserTag was my first map for Unreal Tournament, where I tried to capture the style of all the low-budget laser tag arenas I went to as a kid.  It's packed with glowing surfaces, weird, misplaced cover, and entirely too much neon.
 			  Unreal Tournament is one of the few games still carrying the arena shooter torch, so it was a perfect fit for this idea.  This was my first time creating a complete 3D shooter, instead of a tech demo, so I got to practice some of my favorite design ideas.
 			  <br><br>
@@ -97,36 +88,35 @@
 		</div>
 
       <div class="project">
-			<div class="projectname">Terminal 2</div>
-			<p>
-			  Terminal 2 was my first attempt at capturing a type of game genre that I noticed emerging in first-person adventure games I loved.  Soma, Near Death and Alien Isolation all involved trying to fix up a decaying, human-created station, while completing objectives and avoiding hazards.  I found these games incredibly engaging, not for their horror elements and puzzles, but instead for the rhythms of play that they created, with players moving from area to area, fixing the power, looking for new objectives, and trying to stay alive.  I loved this genre enough that I wrote <a href="https://blog.stephenrubio.com/2016/08/09/by-will-and-wits-alone-near-death-survival-themed-games/">an entire blog post</a> about how fascinating the ideas are.
+				<div class="projectname">Terminal 2</div>
+				<p>Terminal 2 was my first attempt at capturing a type of game genre that I noticed emerging in first-person adventure games I loved.  Soma, Near Death and Alien Isolation all involved trying to fix up a decaying, human-created station, while completing objectives and avoiding hazards.  I found these games incredibly engaging, not for their horror elements and puzzles, but instead for the rhythms of play that they created, with players moving from area to area, fixing the power, looking for new objectives, and trying to stay alive.  I loved this genre enough that I wrote <a href="https://blog.stephenrubio.com/2016/08/09/by-will-and-wits-alone-near-death-survival-themed-games/">an entire blog post</a> about how fascinating the ideas are.
 			  <br><Br>
 			  Terminal 2 focused on what I think is an underexplored element of those games, namely, the broken computer terminals scattered throughout the environment that the player would struggle with.  I tried to keep it localized to a single, diegetic screen, pretending to be the fictional computer terminal the player was interacting with.  The puzzles in the game aren't complex or mind-bending, and are mostly about thoroughly searching all available areas and following written directions, which is exactly what made the games that inspired it so appealing.
 
 			  <br><br>I wrote this entirely using HTML and JavaScript, instead of something more powerful like Twine, but I tried to get as much substance out of those tools as I could to get across the feeling of games with much larger budgets and scopes. </br>
 					</br><img src="images/terminal2.png" alt="terminal2" style="width:50%;">
 			  </br><a href="http://stephenrubio.com/Terminal2/" target="_blank"> Play Here</a>
-			</p>
+				</p>
 		</div>
 
 			<div class="project">
 				<div class="projectname">Kroz</div>
-					<p>Kroz is a Twine remake of Zork, Infocom's classic text adventure game.  I was really interested at the time in the difference between text parser-based adventure games and more contemporary adventure games with clearly communicated inputs.
-					<Br><Br>
-					Kroz works more as an experiment than a satisfying game in and of itself, because it highlights how many of the puzzles that worked so well in Zork are less effective when every option the player can take has to be conveyed to them directly.  Still, the less confusing structure of a Twine game, coupled with its use of the widely-know hypertext format, made it more accessible than Zork, which has a well-deserved reputation for impenetrability.  Despite having much more advanced tools than Infocom's original team, I left Kroz feeling jealous of the format that they were able to use, with a text parser allowing for much more creative, if difficult to discover, solutions to problems.
-					<Br><Br>
-					I find the experiment to still be valuable, however, because many contemporary adventure games cannot pull off the puzzles and aesthetics of Zork, and learning how to properly adapt and explore them could give designers access to a wealth of underexplored potential.
-					Note: I later found out that the devs at Infocom actually didn't like the cover I ended up using.  However, I lost the original Twine project files, so I can't change it to the objectively better cover, <a href ="https://upload.wikimedia.org/wikipedia/en/a/ac/Zork_I_box_art.jpg" target="_blank">here</a>.
-					</br></br>
-					<img src="images/kroz.png" alt="Kroz" style="width:50%;">
-					</br>
-					<a href="content/Kroz.html" target="_blank"> Play Here</a>
-					</p>
-					</div>
+				<p>Kroz is a Twine remake of Zork, Infocom's classic text adventure game.  I was really interested at the time in the difference between text parser-based adventure games and more contemporary adventure games with clearly communicated inputs.
+				<Br><Br>
+				Kroz works more as an experiment than a satisfying game in and of itself, because it highlights how many of the puzzles that worked so well in Zork are less effective when every option the player can take has to be conveyed to them directly.  Still, the less confusing structure of a Twine game, coupled with its use of the widely-know hypertext format, made it more accessible than Zork, which has a well-deserved reputation for impenetrability.  Despite having much more advanced tools than Infocom's original team, I left Kroz feeling jealous of the format that they were able to use, with a text parser allowing for much more creative, if difficult to discover, solutions to problems.
+				<Br><Br>
+				I find the experiment to still be valuable, however, because many contemporary adventure games cannot pull off the puzzles and aesthetics of Zork, and learning how to properly adapt and explore them could give designers access to a wealth of underexplored potential.
+				Note: I later found out that the devs at Infocom actually didn't like the cover I ended up using.  However, I lost the original Twine project files, so I can't change it to the objectively better cover, <a href ="https://upload.wikimedia.org/wikipedia/en/a/ac/Zork_I_box_art.jpg" target="_blank">here</a>.
+				</br></br>
+				<img src="images/kroz.png" alt="Kroz" style="width:50%;">
+				</br>
+				<a href="content/Kroz.html" target="_blank"> Play Here</a>
+				</p>
+			</div>
 
 
 				<div class="project">
-				<div class="projectname">Cloud Notes</div>
+					<div class="projectname">Cloud Notes</div>
 					<p>
 					  Cloud Notes is a piece of non-game software that I wrote to serve as a cross-platform text editor synced over cloud services.  I wrote it to have a place to easily store links, notes, and other data that I could access from anywhere.</br>
 					  </br><a href="https://github.com/stephenrubio94/Cloud-Notes" target="_blank">See here</a>
