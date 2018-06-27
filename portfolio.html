@@ -33,11 +33,11 @@
 				<hr>
 				<div class="project">
 					<div class="projectname">Derelict 54 & VR</div>
-					<p>Derelict 54, and its VR remake, Derelict VR, came about when I tried to take the design sensibilities of Terminal 2, an HTML adventure game I made, and <a href="https://blog.stephenrubio.com/2016/08/09/by-will-and-wits-alone-near-death-survival-themed-games/"> my writing on the subject </a> to create a 3D adventure game with puzzles that felt like grounded extensions of the setting, rather than gamey contrivences.  Knowing that 3D development is often prohibitively difficult for large solo projects, I created a smaller level with a self-contained story.  Derelict 54 follows the same rhythms of play that Terminal 2 did, but from the first-person, 3D perspective, and with a greater emphasis on atmosphere and tone.  It dumps the player onto a broken-down space station, and asks them to figure out how to escape. This gave me a chance to plot player paths with more detail and support them with solid level design.  The result, I hope, emulates the quiet tension of the many adventure games that inspired it.
-					<br>This also includes a VR port/remake of the game,
+					<p>Derelict 54 is a first-person and VR advneture game I made in the Unreal Engine.  It takes my ideas from Terminal 2, and translates them into full 3D, letting the player explore and try to survive a broken down space ship.  It also includes a VR port/remake of the game,
 					The game works with the HTC Vive and Oculus Rift, but requires 360-degree tracking and a roomscale setup.
-					<br><br>You can see the code and project files on GitHub <a href="https://github.com/stephenrubio94/Derelict54VR" target="_blank">here</a>.
-					<br>I also wrote up a Devlog about the development process, which you can find <a href ="https://blog.stephenrubio.com/2018/05/19/derelict-54-devlog/"> here</a>.
+					<br><br><a href="https://github.com/stephenrubio94/Derelict54VR" target="_blank">Source Code (Github)</a>
+					<br><a href ="https://blog.stephenrubio.com/2018/05/19/derelict-54-devlog/">Devlog</a>
+				 	<br><a href="https://blog.stephenrubio.com/2016/08/09/by-will-and-wits-alone-near-death-survival-themed-games/">Related Writing</a>
 					<br><a href="https://github.com/stephenrubio94/Derelict54VR/releases/" target="_blank">Play Here (VR and First-Person)</a>
 					<br><iframe width="560" height="315" src="https://www.youtube.com/embed/CT7aTUWscl8" frameborder="0" allowfullscreen></iframe><br>
 				 	</p>
@@ -45,9 +45,9 @@
 
 				<div class="project">
 					<div class="projectname">Eventide</div>
-						<p>Eventide is a first-person parkour game made in the Unreal Engine.  Inspired by <a href="http://store.steampowered.com/app/17410/Mirrors_Edge/" target="_blank">Mirror's Edge</a>'s Pure Time Trials DLC, and indie title <a href="http://store.steampowered.com/app/406150/Refunct/" target="_blank">Refunct</a>, this game is a speed challange level that test the player on the game's low-level mechanics.  I made this game while I was writing <a href="https://blog.stephenrubio.com/2017/07/22/the-mirrors-edge-legacy/"> my Mirror's Edge retrospective </a>, so I got to spend a lot of time thinking about what makes first-person platforming work and not work in the various games that have implemented it.  Following in Mirror's Edge's footsteps, Eventide uses the first-person perspective, but impliments a third-person animation blueprint so that they player can see their limbs and body in the world, grounding the action and, hopefully, adding weight to movement.  This pushes the player towards a flow state that the Mirror's Edge games are so good at evoking, but only after they have mastered those low-level mechanics.  I might add more levels in the future, but the one currently included in the game's 1.0 release works as a vertical slice of the ideas I'm working with.
-						 </br><br>
-						 You can see the code and project files on GitHub <a href="https://github.com/stephenrubio94/Eventide" target="_blank">here</a>. <br>
+						<p>Eventide is a first-person, parkour-focused platformer made in the Unreal Engine.  Inspired by <a href="http://store.steampowered.com/app/17410/Mirrors_Edge/" target="_blank">Mirror's Edge</a>'s Pure Time Trials DLC, and indie title <a href="http://store.steampowered.com/app/406150/Refunct/" target="_blank">Refunct</a>, this game is a speed challange level that test the player on the game's low-level mechanics.  I built the movement system from the ground up using a third-person animation blueprint to add a sense of presence and weight to the player's movements.
+						</br><br><a href="https://blog.stephenrubio.com/2017/07/22/the-mirrors-edge-legacy/">Related Writing</a>
+						<br><a href="https://github.com/stephenrubio94/Eventide" target="_blank">Source Code (Github)</a><br>
 						 <a href="https://github.com/stephenrubio94/Eventide/releases/" target="_blank">Play Here</a>
 						 <br><iframe width="560" height="315" src="https://www.youtube.com/embed/6uyXxvq3k-4?start=3" frameborder="0" allowfullscreen></iframe><br>
 				 	 </p>
@@ -62,23 +62,17 @@
 
       <div class="project">
 				<div class="projectname">DM-LaserTag</div>
-			  <p>DM-LaserTag was my first map for Unreal Tournament, where I tried to capture the style of all the low-budget laser tag arenas I went to as a kid.  It's packed with glowing surfaces, weird, misplaced cover, and entirely too much neon.
-			  Unreal Tournament is one of the few games still carrying the arena shooter torch, so it was a perfect fit for this idea.  This was my first time creating a complete 3D shooter, instead of a tech demo, so I got to practice some of my favorite design ideas.
-			  <br><br>
-			  The core design concept was an easily readable map that dishes out its complexity slowly over time instead of all at once.  The map is structured around a large, rectangular room with a hexagonal pit in the center that leads to the second floor, making it easy for the player to understand the basic layout and figure out where they are quickly, which is necessary for a game moving at UT's speed.  Adding teleporters to the mix further necessitates the player to be able to quickly get a sense of where they are.  The bottom floor put this philosophy to the test, as I tried to recreate the mazes that many laser tag arenas contain.  Doing this while sticking to the easy readability phliosophy was difficult, so I split the map into four sections, and color-coded all the assets in each area accordingly.  This means that, even when the player is jumping across the map at crazy speeds, they can quickly see the dominant color in a scene and figure out where they are.
-			  <br><Br>
-			  With that navigation established, I could proceed to add more complexity and discoveries for the player to find.  Hidden secrets are one of my favorite parts of older shooters like Doom and Quake, and I've scattered a few throughout my map to keep it from feeling too samey, and to keep the player constantly wondering at what's there.
-			  </br></br>
-			  <iframe width="560" height="315" src="https://www.youtube.com/embed/aCmnquBl7Xs" frameborder="0" allowfullscreen></iframe><br>
-			  How to Play The Map (Warning: This is needlessly complicated until Epic figures out a better way of sharing user maps) <br />
+			  <p>DM-LaserTag is a custom map I created for the new Unreal Tournament (which doesn't have a more elegent title than that).  In it, I tried to capture the style of all the low-budget laser tag arenas I went to as a kid.  It's packed with glowing surfaces, weird, misplaced cover, and entirely too much neon.
+
+				</br><br><a href="https://blog.stephenrubio.com/2018/06/26/dm-lasertag-devlog/">Devlog</a>
+			  <br>How to Play The Map (Warning: This is needlessly complicated until Epic figures out a better way of sharing user maps) <br />
 			  Requires Unreal Tournament from the Epic Games Launcher
-			  <ol>
-				<li>Download the map from <a href="content/DM-LaserTag1-WindowsNoEditor.pak">here</a> (Compiled May 28, 2017)</li>
-				<li>Copy it to [Unreal Tournament Install Directory]\UnrealTournament\Content\Paks</li>
-				<li>Open Unreal Tournament</li>
-				<li>Click “Play”, “Start LAN Match”, “Custom”</li>
-				<li>Under the Maps dropdown, select DM-LaserTag1</li>
-			  </ol>
+			  <br>-Download the map from <a href="content/DM-LaserTag1-WindowsNoEditor.pak">here</a> (Compiled May 28, 2017)
+				<br>-Copy it to [Unreal Tournament Install Directory]\UnrealTournament\Content\Paks
+				<br>-Open Unreal Tournament
+				<br>-Click "Play", "Start LAN Match", "Custom"
+				<br>-Under the Maps dropdown, select DM-LaserTag1
+				<br><iframe width="560" height="315" src="https://www.youtube.com/embed/aCmnquBl7Xs" frameborder="0" allowfullscreen></iframe><br>
 			  </p>
 		</div>
 
@@ -108,16 +102,6 @@
 				<img src="images/kroz.png" alt="Kroz" style="width:50%;">
 				</p>
 			</div>
-
-
-				<div class="project">
-					<div class="projectname">Cloud Notes</div>
-					<p>
-					  Cloud Notes is a piece of non-game software that I wrote to serve as a cross-platform text editor synced over cloud services.  I wrote it to have a place to easily store links, notes, and other data that I could access from anywhere.</br>
-					  </br><a href="https://github.com/stephenrubio94/Cloud-Notes" target="_blank">See here</a>
-					</p>
-				</div>
-
 		</div>
 		<div class="mobileHide"><div class="strip" style="background-image:url('images/SidebarBanner.png');"></div></div>
 		</div>
