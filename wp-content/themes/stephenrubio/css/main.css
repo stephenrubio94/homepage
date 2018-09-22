@@ -2,14 +2,28 @@ body {
   font-family: 'Source Sans Pro', sans-serif; }
 
 .c-zone {
-  width: calc(100% - 285px); }
+  width: calc(100% - 285px);
+  padding-right: 5%; }
+
+.content {
+  padding: 0px 20px; }
+
+.main {
+  width: 100%; }
 
 a {
   text-decoration: none;
   color: #1e90ff; }
 
 nav {
-  width: 225px; }
+  width: 225px;
+  padding-top: 20px; }
+  nav .logo {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/vive.jpg");
+    background-size: cover;
+    border-radius: 100px; }
   nav a {
     color: inherit;
     font-size: 24px; }

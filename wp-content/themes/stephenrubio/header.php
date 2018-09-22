@@ -15,6 +15,7 @@
 <body>
 	<div class="flex flex-start flex-no-shrink">
 		<nav class="main-nav px-8">
+		<div class="logo"></div>
 		<h1>Stephen <div class="rubio"><i>Rubio</i></div></h1>
 			<?php wp_nav_menu( array( 'theme_location' => 'navigation' ) ); ?>
 		</nav>
