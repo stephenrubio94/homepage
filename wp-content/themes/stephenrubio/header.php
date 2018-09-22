@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-
+<!DOCTYPE html><html>
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>">
@@ -15,8 +13,8 @@
 </head>
 
 <body>
-	<div class="main flex">
-		<nav class="w-1/5 px-8">
+	<div class="flex flex-start flex-no-shrink">
+		<nav class="main-nav px-8">
 		<h1>Stephen <div class="rubio"><i>Rubio</i></div></h1>
 			<?php wp_nav_menu( array( 'theme_location' => 'navigation' ) ); ?>
 		</nav>

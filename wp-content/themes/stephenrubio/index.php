@@ -1,5 +1,5 @@
 <?php get_header() ?>
-<div class="c-zone">
+<div class="main">
     <?php get_template_part('content') ?>
 </div>
 <?php get_footer() ?>
