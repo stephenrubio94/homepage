@@ -1,0 +1,33 @@
+nav {
+    a {
+        color:inherit;
+        font-size:28px;
+    }
+    .current-menu-item a {
+        color:#1e90ff;
+        &:hover {
+
+        }
+    }
+    ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        li {
+            margin:0;
+            padding:0;
+        }
+    }
+}
+
+.rubio {
+    font-family: 'Permanent Marker', cursive;
+    display:block;
+	margin-top:-20px;
+	margin-left:50px;
+	color:#1e90ff;
+	font-size:40px;
+	font-weight:normal;
+	font-style:italic;
+}
+	
